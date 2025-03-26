@@ -1,0 +1,12 @@
+/* Disable text selection */
+body {
+  user-select: none;
+}
+
+/* Disable right-click */
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
