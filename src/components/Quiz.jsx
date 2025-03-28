@@ -95,7 +95,7 @@ function Quiz() {
 
     try {
       const response = await fetch(
-        "https://quiz-shibir-mec-backend.vercel.app/api/data",
+        "https://mec-shibir-quiz-back.vercel.app/api/data",
         {
           method: "POST",
           headers: {
